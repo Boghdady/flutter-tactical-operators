@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tactical_operators/1_spread.dart';
 import 'package:flutter_tactical_operators/2_cascade.dart';
+import 'package:flutter_tactical_operators/3_nulls.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Cascade(),
+      home: NullAware(),
     );
   }
 }
